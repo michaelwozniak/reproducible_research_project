@@ -1,0 +1,147 @@
+country_name,pandem,pandem_dis,panback,country_txt,continent,sub-region,income_group
+Afghanistan,0.0588235294117647,0.05,0.0,AFG,Asia,Southern Asia,Low income
+Albania,0.17647058823529396,0.15,0.173109882352941,ALB,Europe,Southern Europe,Upper middle income
+Algeria,0.294117647058824,0.35,0.12334,DZA,Africa,Northern Africa,Lower middle income
+Angola,0.11764705882352902,0.1,0.0416705882352941,AGO,Africa,Sub-Saharan Africa,Lower middle income
+Argentina,0.0588235294117647,0.05,0.0547856470588235,ARG,Americas,Latin America and the Caribbean,Upper middle income
+Armenia,0.17647058823529396,0.15,0.162436941176471,ARM,Asia,Western Asia,Upper middle income
+Australia,0.0,0.0,0.0,AUS,Oceania,Australia and New Zealand,High income
+Austria,0.0,0.0,0.0,AUT,Europe,Western Europe,High income
+Azerbaijan,0.17647058823529396,0.15,0.0459529411764706,AZE,Asia,Western Asia,Upper middle income
+Bangladesh,0.23529411764705901,0.2,0.0847058823529412,BGD,Asia,Southern Asia,Lower middle income
+Belarus,0.17647058823529396,0.25,0.0718411764705882,BLR,Europe,Eastern Europe,Upper middle income
+Belgium,0.0,0.0,0.0,BEL,Europe,Western Europe,High income
+Benin,0.0,0.0,0.0,BEN,Africa,Sub-Saharan Africa,Lower middle income
+Bolivia,0.17647058823529396,0.15,0.149904,BOL,Americas,Latin America and the Caribbean,Lower middle income
+Bosnia and Herzegovina,0.294117647058824,0.25,0.265852941176471,BIH,Europe,Southern Europe,Upper middle income
+Botswana,0.0588235294117647,0.05,0.0582352941176471,BWA,Africa,Sub-Saharan Africa,Upper middle income
+Brazil,0.294117647058824,0.35,0.29404235294117603,BRA,Americas,Latin America and the Caribbean,Upper middle income
+Bulgaria,0.23529411764705901,0.2,0.23515858823529395,BGR,Europe,Eastern Europe,Upper middle income
+Burkina Faso,0.11764705882352902,0.1,0.0933981176470588,BFA,Africa,Sub-Saharan Africa,Low income
+Burma/Myanmar,0.23529411764705901,0.2,0.174573176470588,MMR,Asia,South-eastern Asia,Lower middle income
+Burundi,0.17647058823529396,0.3,0.0391898823529412,BDI,Africa,Sub-Saharan Africa,Low income
+Cambodia,0.294117647058824,0.25,0.0944188235294118,KHM,Asia,South-eastern Asia,Lower middle income
+Cameroon,0.17647058823529396,0.15,0.0875117647058824,CMR,Africa,Sub-Saharan Africa,Lower middle income
+Canada,0.0,0.0,0.0,CAN,Americas,Northern America,High income
+Central African Republic,0.0588235294117647,0.05,0.0,CAF,Africa,Sub-Saharan Africa,Low income
+Chad,0.17647058823529396,0.15,0.0691058823529412,TCD,Africa,Sub-Saharan Africa,Low income
+Chile,0.0,0.0,0.0,CHL,Americas,Latin America and the Caribbean,High income
+China,0.3529411764705879,0.3,0.0670588235294118,CHN,Asia,Eastern Asia,Upper middle income
+Colombia,0.0588235294117647,0.05,0.0588214117647059,COL,Americas,Latin America and the Caribbean,Upper middle income
+Costa Rica,0.11764705882352902,0.1,0.070656,CRI,Americas,Latin America and the Caribbean,Upper middle income
+Croatia,0.0588235294117647,0.05,0.0,HRV,Europe,Southern Europe,High income
+Cuba,0.294117647058824,0.25,0.0385411764705882,CUB,Americas,Latin America and the Caribbean,Upper middle income
+Czech Republic,0.0588235294117647,0.05,0.049692,CZE,Europe,Eastern Europe,High income
+Democratic Republic of the Congo,0.411764705882353,0.45,0.19711835294117602,COD,Africa,Sub-Saharan Africa,Low income
+Denmark,0.0,0.0,0.0,DNK,Europe,Northern Europe,High income
+Dominican Republic,0.0,0.0,0.0,DOM,Americas,Latin America and the Caribbean,Upper middle income
+Ecuador,0.0588235294117647,0.05,0.0588225882352941,ECU,Americas,Latin America and the Caribbean,Upper middle income
+Egypt,0.3529411764705879,0.3,0.15546917647058803,EGY,Africa,Northern Africa,Lower middle income
+El Salvador,0.47058823529411803,0.45,0.4631171764705879,SLV,Americas,Latin America and the Caribbean,Lower middle income
+Eritrea,0.529411764705882,0.45,0.0167378823529412,ERI,Africa,Sub-Saharan Africa,Low income
+Ethiopia,0.3529411764705879,0.3,0.204739764705882,ETH,Africa,Sub-Saharan Africa,Low income
+Finland,0.0,0.0,0.0,FIN,Europe,Northern Europe,High income
+France,0.0588235294117647,0.05,0.0399790588235294,FRA,Europe,Western Europe,High income
+Gabon,0.0588235294117647,0.05,0.0,GAB,Africa,Sub-Saharan Africa,Upper middle income
+Georgia,0.0,0.0,0.0,GEO,Asia,Western Asia,Upper middle income
+Germany,0.0,0.0,0.0,DEU,Europe,Western Europe,High income
+Ghana,0.294117647058824,0.3,0.28039529411764696,GHA,Africa,Sub-Saharan Africa,Lower middle income
+Greece,0.11764705882352902,0.1,0.085344,GRC,Europe,Southern Europe,High income
+Guatemala,0.17647058823529396,0.2,0.168835764705882,GTM,Americas,Latin America and the Caribbean,Upper middle income
+Guinea,0.0588235294117647,0.05,0.0325750588235294,GIN,Africa,Sub-Saharan Africa,Low income
+Haiti,0.3529411764705879,0.3,0.25677035294117606,HTI,Americas,Latin America and the Caribbean,Low income
+Honduras,0.23529411764705901,0.2,0.14774117647058801,HND,Americas,Latin America and the Caribbean,Lower middle income
+Hungary,0.3529411764705879,0.3,0.339382588235294,HUN,Europe,Eastern Europe,High income
+India,0.47058823529411803,0.4,0.435772235294118,IND,Asia,Southern Asia,Lower middle income
+Indonesia,0.294117647058824,0.25,0.29407529411764693,IDN,Asia,South-eastern Asia,Upper middle income
+Iran,0.23529411764705901,0.2,0.11601317647058802,IRN,Asia,Southern Asia,Upper middle income
+Iraq,0.17647058823529396,0.15,0.128752941176471,IRQ,Asia,Western Asia,Upper middle income
+Ireland,0.0,0.0,0.0,IRL,Europe,Northern Europe,High income
+Israel,0.0,0.0,0.0,ISR,Asia,Western Asia,High income
+Italy,0.0588235294117647,0.05,0.0414155294117647,ITA,Europe,Southern Europe,High income
+Ivory Coast,0.294117647058824,0.25,0.27573529411764697,CIV,Africa,Sub-Saharan Africa,Lower middle income
+Jamaica,0.11764705882352902,0.1,0.10065882352941198,JAM,Americas,Latin America and the Caribbean,Upper middle income
+Japan,0.0,0.0,0.0,JPN,Asia,Eastern Asia,High income
+Jordan,0.294117647058824,0.25,0.22292235294117604,JOR,Asia,Western Asia,Upper middle income
+Kazakhstan,0.17647058823529396,0.15,0.072384,KAZ,Asia,Central Asia,Upper middle income
+Kenya,0.294117647058824,0.25,0.26324235294117604,KEN,Africa,Sub-Saharan Africa,Lower middle income
+Kuwait,0.294117647058824,0.25,0.244676470588235,KWT,Asia,Western Asia,High income
+Kyrgyzstan,0.17647058823529396,0.15,0.15231176470588198,KGZ,Asia,Central Asia,Lower middle income
+Laos,0.17647058823529396,0.15,0.0606882352941177,LAO,Asia,South-eastern Asia,Lower middle income
+Lebanon,0.11764705882352902,0.1,0.0484470588235294,LBN,Asia,Western Asia,Upper middle income
+Lesotho,0.17647058823529396,0.15,0.175605882352941,LSO,Africa,Sub-Saharan Africa,Lower middle income
+Liberia,0.17647058823529396,0.15,0.172605176470588,LBR,Africa,Sub-Saharan Africa,Low income
+Libya,0.0,0.0,0.0,LBY,Africa,Northern Africa,Upper middle income
+Lithuania,0.0,0.0,0.0,LTU,Europe,Northern Europe,High income
+Madagascar,0.17647058823529396,0.25,0.151786588235294,MDG,Africa,Sub-Saharan Africa,Low income
+Malawi,0.11764705882352902,0.1,0.11492894117647098,MWI,Africa,Sub-Saharan Africa,Low income
+Malaysia,0.294117647058824,0.3,0.259312941176471,MYS,Asia,South-eastern Asia,Upper middle income
+Mali,0.294117647058824,0.25,0.251198823529412,MLI,Africa,Sub-Saharan Africa,Low income
+Mauritania,0.11764705882352902,0.1,0.0635665882352941,MRT,Africa,Sub-Saharan Africa,Lower middle income
+Mexico,0.294117647058824,0.35,0.293887058823529,MEX,Americas,Latin America and the Caribbean,Upper middle income
+Moldova,0.17647058823529396,0.15,0.174335294117647,MDA,Europe,Eastern Europe,Lower middle income
+Mongolia,0.17647058823529396,0.2,0.17612894117647102,MNG,Asia,Eastern Asia,Lower middle income
+Morocco,0.17647058823529396,0.15,0.134445176470588,MAR,Africa,Northern Africa,Lower middle income
+Mozambique,0.0588235294117647,0.05,0.0,MOZ,Africa,Sub-Saharan Africa,Low income
+Namibia,0.294117647058824,0.25,0.288677647058824,NAM,Africa,Sub-Saharan Africa,Upper middle income
+Nepal,0.294117647058824,0.25,0.292592941176471,NPL,Asia,Southern Asia,Lower middle income
+Netherlands,0.0,0.0,0.0,NLD,Europe,Western Europe,High income
+New Zealand,0.0,0.0,0.0,NZL,Oceania,Australia and New Zealand,High income
+Nicaragua,0.17647058823529396,0.3,0.0385665882352941,NIC,Americas,Latin America and the Caribbean,Lower middle income
+Niger,0.17647058823529396,0.15,0.159292235294118,NER,Africa,Sub-Saharan Africa,Low income
+Nigeria,0.294117647058824,0.25,0.26362235294117703,NGA,Africa,Sub-Saharan Africa,Lower middle income
+North Korea,0.17647058823529396,0.15,0.0,PRK,Asia,Eastern Asia,Low income
+North Macedonia,0.0588235294117647,0.05,0.0577355294117647,MKD,Europe,Southern Europe,Upper middle income
+Norway,0.0,0.0,0.0,NOR,Europe,Northern Europe,High income
+Oman,0.529411764705882,0.5,0.259519764705882,OMN,Asia,Western Asia,High income
+Pakistan,0.294117647058824,0.25,0.15668611764705898,PAK,Asia,Southern Asia,Lower middle income
+Panama,0.17647058823529396,0.15,0.170496,PAN,Americas,Latin America and the Caribbean,High income
+Papua New Guinea,0.11764705882352902,0.1,0.11005694117647098,PNG,Oceania,Melanesia,Lower middle income
+Paraguay,0.11764705882352902,0.1,0.11513929411764698,PRY,Americas,Latin America and the Caribbean,Upper middle income
+Peru,0.11764705882352902,0.1,0.103399529411765,PER,Americas,Latin America and the Caribbean,Upper middle income
+Philippines,0.47058823529411803,0.4,0.384384,PHL,Asia,South-eastern Asia,Lower middle income
+Poland,0.294117647058824,0.25,0.294117647058824,POL,Europe,Eastern Europe,High income
+Portugal,0.0,0.0,0.0,PRT,Europe,Southern Europe,High income
+Qatar,0.294117647058824,0.25,0.0554851764705882,QAT,Asia,Western Asia,High income
+Republic of the Congo,0.17647058823529396,0.25,0.06296399999999999,COG,Africa,Sub-Saharan Africa,Lower middle income
+Romania,0.0588235294117647,0.05,0.0577985882352941,ROU,Europe,Eastern Europe,High income
+Russia,0.23529411764705901,0.25,0.083952,RUS,Europe,Eastern Europe,Upper middle income
+Rwanda,0.17647058823529396,0.15,0.0919651764705882,RWA,Africa,Sub-Saharan Africa,Low income
+Saudi Arabia,0.529411764705882,0.45,0.0542117647058824,SAU,Asia,Western Asia,High income
+Senegal,0.17647058823529396,0.15,0.173844,SEN,Africa,Sub-Saharan Africa,Lower middle income
+Serbia,0.411764705882353,0.45,0.31209129411764697,SRB,Europe,Southern Europe,Upper middle income
+Sierra Leone,0.294117647058824,0.25,0.281147058823529,SLE,Africa,Sub-Saharan Africa,Low income
+Singapore,0.11764705882352902,0.1,0.0,SGP,Asia,South-eastern Asia,High income
+Slovakia,0.17647058823529396,0.15,0.143231294117647,SVK,Europe,Eastern Europe,High income
+Slovenia,0.11764705882352902,0.1,0.096096,SVN,Europe,Southern Europe,High income
+Somalia,0.3529411764705879,0.3,0.12931199999999998,SOM,Africa,Sub-Saharan Africa,Low income
+South Africa,0.294117647058824,0.25,0.2875,ZAF,Africa,Sub-Saharan Africa,Upper middle income
+South Korea,0.0,0.0,0.0,KOR,Asia,Eastern Asia,High income
+South Sudan,0.17647058823529396,0.15,0.0,SSD,Africa,Sub-Saharan Africa,Low income
+Spain,0.0588235294117647,0.05,0.0354764705882353,ESP,Europe,Southern Europe,High income
+Sri Lanka,0.47058823529411803,0.45,0.468779294117647,LKA,Asia,Southern Asia,Lower middle income
+Sudan,0.17647058823529396,0.15,0.0560689411764706,SDN,Africa,Northern Africa,Low income
+Sweden,0.0,0.0,0.0,SWE,Europe,Northern Europe,High income
+Switzerland,0.0,0.0,0.0,CHE,Europe,Western Europe,High income
+Syria,0.23529411764705901,0.25,0.0387303529411765,SYR,Asia,Western Asia,Low income
+Taiwan,0.0588235294117647,0.05,0.049692,TWN,Asia,Eastern Asia,High income
+Tajikistan,0.17647058823529396,0.2,0.0410512941176471,TJK,Asia,Central Asia,Low income
+Tanzania,0.17647058823529396,0.25,0.158848941176471,TZA,Africa,Sub-Saharan Africa,Lower middle income
+Thailand,0.294117647058824,0.25,0.151642352941176,THA,Asia,South-eastern Asia,Upper middle income
+The Gambia,0.0,0.1,0.0,GMB,Africa,Sub-Saharan Africa,Low income
+Togo,0.11764705882352902,0.1,0.0345785882352941,TGO,Africa,Sub-Saharan Africa,Low income
+Tunisia,0.23529411764705901,0.2,0.21268235294117604,TUN,Africa,Northern Africa,Lower middle income
+Turkey,0.294117647058824,0.25,0.106822352941176,TUR,Asia,Western Asia,Upper middle income
+Turkmenistan,0.17647058823529396,0.3,0.0,TKM,Asia,Central Asia,Upper middle income
+Uganda,0.47058823529411803,0.4,0.325112470588235,UGA,Africa,Sub-Saharan Africa,Low income
+Ukraine,0.17647058823529396,0.15,0.145931294117647,UKR,Europe,Eastern Europe,Lower middle income
+United Arab Emirates,0.17647058823529396,0.15,0.0194632941176471,ARE,Asia,Western Asia,High income
+United Kingdom,0.0588235294117647,0.05,0.039035294117647,GBR,Europe,Northern Europe,High income
+United States of America,0.23529411764705901,0.3,0.197647058823529,USA,Americas,Northern America,High income
+Uruguay,0.11764705882352902,0.1,0.0807529411764706,URY,Americas,Latin America and the Caribbean,High income
+Uzbekistan,0.17647058823529396,0.15,0.0566512941176471,UZB,Asia,Central Asia,Lower middle income
+Venezuela,0.294117647058824,0.25,0.0924752941176471,VEN,Americas,Latin America and the Caribbean,Upper middle income
+Vietnam,0.17647058823529396,0.15,0.0,VNM,Asia,South-eastern Asia,Lower middle income
+Yemen,0.17647058823529396,0.15,0.00946729411764706,YEM,Asia,Western Asia,Low income
+Zambia,0.411764705882353,0.35,0.234028235294118,ZMB,Africa,Sub-Saharan Africa,Lower middle income
+Zimbabwe,0.294117647058824,0.25,0.169852941176471,ZWE,Africa,Sub-Saharan Africa,Lower middle income
