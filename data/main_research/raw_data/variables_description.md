@@ -1,0 +1,16 @@
+|    | name                                  | description                                                                                                                                        |
+|---:|:--------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
+|  0 | country_classification_world_bank.xls | actual income category of given country [four categories: low income, lower middle income, upper middle income, high income] (World Bank database) |
+|  1 | country_location.csv                  | country location (continent division)                                                                                                              |
+|  2 | export_gdp_world_bank.csv             | exports of goods and services as % of GDP (World Bank database)                                                                                    |
+|  3 | fractionalization.xlsx                | three fractionalization indexes: ethnic, linguistic, religious (Alesina database)                                                                  |
+|  4 | gdp_pc_world_bank.csv                 | gdp per capita in current US$ (World Bank database)                                                                                                |
+|  5 | gini_index_world_bank.csv             | gini index (World Bank database)                                                                                                                   |
+|  6 | import_gdp_world_bank.csv             | imports of goods and services as % of GDP (World Bank database)                                                                                    |
+|  7 | inflation_world_bank.csv              | inflation, consumer prices, annual % (World Bank database)                                                                                         |
+|  8 | military_world_bank.csv               | military expenditure as % of GDP (World Bank database)                                                                                             |
+|  9 | mineral_world_bank.csv                | mineral rents as % of GDP (World Bank database)                                                                                                    |
+| 10 | oil_world_bank.csv                    | oil rents as % of GDP (World Bank database)                                                                                                        |
+| 11 | population_density_world_bank.csv     | population density as people per square Km of land area (World Bank database)                                                                      |
+| 12 | vdem_2019.csv                         | democratization factors (V-dem database)                                                                                                           |
+| 13 | vdem_pandem_data_v3.csv               | pandemic data (V-dem database)                                                                                                                     |
