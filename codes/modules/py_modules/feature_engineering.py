@@ -16,6 +16,6 @@ def initial_transformations(df: pd.DataFrame) -> pd.DataFrame:
     df["gdp_pc_log"] = np.log(df.gdp_pc)
     df["trade_gdp_log"] = np.log(df.trade_gdp)
     df["density_log"] = np.log(df.density)
-    
+    df["region_geo"] = 'reg_' + df["region_geo"].astype(str)    
     return df
     

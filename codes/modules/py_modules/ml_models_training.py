@@ -25,9 +25,9 @@ def catboost_model(df: pd.DataFrame, target: str, features: list, cat_features: 
     # find the best possible 'unbiased' model
     dataset = Pool(X, y, cat_features=cat_features)
     model = CatBoostRegressor(random_state=2020, verbose=False)
-    grid = {'depth': [2, 3, 4, 5, 6],
+    grid = {'depth': [3, 4, 5, 6],
             'learning_rate': [0.05, 0.1, 0.3, 0.5],
-            'iterations': [10, 20, 30, 40, 50, 100]}
+            'iterations': [20, 30, 40, 50, 100]}
     grid_search_result = model.grid_search(grid, X=dataset, cv=3, verbose=False)
     
     # infer with above model on the training set 
