@@ -8,7 +8,7 @@ pip install -r py_requirements.txt
 install.packages(scan(file = "r_requirements.txt", what = character()))
 
 ### Project tree
-```bash
+```
 |-- README.md
 |-- codes
 |   |-- _init_.py
