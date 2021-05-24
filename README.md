@@ -16,7 +16,7 @@ install.packages(scan(file = "r_requirements.txt", what = character()))
     └───codes
         │   __init__.py
         │
-        ├───experiments
+        └───experiments
             └───main_research
             |       catboost_info
             |       .gitkeep
@@ -33,7 +33,7 @@ install.packages(scan(file = "r_requirements.txt", what = character()))
             │       3_catboost_regression.ipynb
             │       4_random_forest_regression.ipynb
             │       __init__.py
-        ├───modules
+        └───modules
              └───py_modules
              |       __py_cache__
              |       __init__.py
