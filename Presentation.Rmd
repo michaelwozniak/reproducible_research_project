@@ -1,0 +1,179 @@
+---
+title: "Institutional Underpinnings and Democracy Backsliding in the Perspective of COVID-19"
+author: "Michał Woźniak, Michał Wrzesiński"
+date: "24 05 2020"
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
+widescreen: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Goals of the project
+* reproduction of initial results
+* robustness checks
+* systematization of files and folders?
+
+## Problems
+* updated indexes
+* mix of R and Python?
+
+## Research purpose
+* COVID-19 and its economic and legal consequences are undoubtedly a very important problem that we have to face.
+* Governments are using the global pandemic to pursue their opportunistic goals, corruption and power strengthening.
+  - Therefore, **pandemic is concerned as a serious threat to democracy**, as governments may try to limit democratic rules under the cover of pandemic management.
+  - On the other hand, well-managed lockdowns and other means of government interventionism may lead to increased satisfaction with democracy or trust in government.
+* An alleged **democracy recession** can be **observed in recent years** and this **backsliding** is **deeply rooted in institutional environment**.
+* The phenomenon of democracy backsliding remains unexplained despite many attempts.
+
+## Research question {.bigger}
+<br>
+<br>
+<br>
+
+<span style="font-size:xx-large">What is the relevance of the law and the current state of democracy for susceptibility to democracy backsliding in the face of the COVID-19?</span>
+
+## Materials {.smaller}
+
+| Group of variables | Variables | Time range |
+|:----|:------|:---:|
+| Pandemic data | Pandemic Democratic Violations Index (*pandem*), Pandemic Democratic Violations Disinformation Index (*pandem_dis*), Pandemic Backsliding Index (*panback*)  | 03.2020 - 07.2020 |
+| Democratization data  | Rule of law index (*rule*), Electoral democracy index (*polyarchy*), Education level index (*education*), Politico-geographic regions (*region_geo*) | 2019 |
+| Economic & Demographic data  | Gini Index (*gini*), GDP pc (*gdp_pc*), Trade GDP (*trade_gdp*), Inflation rate (*inflation*),  Oil sale (*oil*), Minerals sale (*mineral*),Population Density (*density*), Income group (*income_group*) | mostly 2019 |
+| Fractionalization data  | Ethnic (*ethnic_frac*), Linguistic (*ling_frac*) and Religious fractionalization (*relig_frac*) | 2002 |
+
+## Adjustments
+* cases_ratio
+* robustness checks
+  - time periods
+  - collinearity
+  - missing values
+* adding squares term
+
+## Initial results - OLS with categorical variables {.smaller}
+
+````{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('results/main_research/ols_regression/Table_1_edited.html')
+```
+````
+## Initial results - OLS without categorical variables {.smaller}
+
+````{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('results/main_research/ols_regression/Table_2_edited.html')
+```
+````
+
+## Repro results - OLS with categorical variables {.smaller}
+
+````{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('results/robustness_check/ols_regression/main_tables/Table_1_edited.html')
+```
+````
+## Repro results - OLS without categorical variables {.smaller}
+
+````{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('results/robustness_check/ols_regression/main_tables/Table_2_edited.html')
+```
+````
+
+
+## Robustness check - collinearity {.smaller}
+
+````{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('results/robustness_check/ols_regression/robustness_collinearity/Table_1_edited.html')
+```
+````
+
+## Robustness check - collinearity {.smaller}
+
+````{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('results/robustness_check/ols_regression/robustness_collinearity/Table_2_edited.html')
+```
+````
+
+## Robustness check - missings {.smaller}
+
+````{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('results/robustness_check/ols_regression/robustness_missings/Table_1_edited.html')
+```
+````
+
+## Robustness check - missings {.smaller}
+
+````{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('results/robustness_check/ols_regression/robustness_missings/Table_2_edited.html')
+```
+````
+
+
+
+
+
+## Initial results - Random Forest (SHAP dependence plots)
+
+```{r, echo=FALSE, out.width = '33%'}
+knitr::include_graphics(c("results/main_research/random_forest/pdp_1d_panback_vs_polyarchy.png", "results/main_research/random_forest/pdp_1d_pandem_vs_polyarchy.png", "results/main_research/random_forest/pdp_1d_pandem_dis_vs_polyarchy.png"))
+```
+
+
+
+## Repro results - Random Forest (SHAP dependence plots)
+
+```{r, echo=FALSE, out.width = '50%'}
+knitr::include_graphics(c("results/robustness_check/random_forest/pdp_1d_panback_vs_polyarchy.png", "results/robustness_check/random_forest/pdp_1d_pandem_vs_polyarchy.png"))
+```
+
+
+
+## Initial results - Catboost (SHAP summary plots)
+
+```{r, echo=FALSE, out.width = '33%'}
+knitr::include_graphics(c("results/main_research/catboost/summary_plot_of_panback.png", "results/main_research/catboost/summary_plot_of_pandem.png", "results/main_research/catboost/summary_plot_of_pandem_dis.png"))
+```
+
+
+
+## Repro results - Catboost (SHAP summary plots)
+
+```{r, echo=FALSE, out.width = '50%'}
+knitr::include_graphics(c("results/robustness_check/catboost/summary_plot_of_panback.png", "results/robustness_check/catboost/summary_plot_of_pandem.png"))
+```
+
+
+## Initial results - Random Forest (2D Partial Dependence Plots)
+
+```{r, echo=FALSE, out.width = '33%'}
+knitr::include_graphics(c("results/main_research/random_forest/pdp_2d_panback_vs_polyarchy_and_rule.png", "results/main_research/random_forest/pdp_2d_pandem_vs_polyarchy_and_rule.png", "results/main_research/random_forest/pdp_2d_pandem_dis_vs_polyarchy_and_rule.png"))
+```
+
+
+
+## Repro results - Random Forest (2D Partial Dependence Plots)
+
+```{r, echo=FALSE, out.width = '50%'}
+knitr::include_graphics(c("results/robustness_check/random_forest/pdp_2d_panback_vs_polyarchy_and_rule.png", "results/robustness_check/random_forest/pdp_2d_pandem_vs_polyarchy_and_rule.png"))
+```
+
+
+
+## Conclusions
+* Influence of law and state of democracy is exceptionally strong. The stronger the rule of law and the higher the level of democracy, the lower is the risk of democracy backsliding in the face of global pandemic.
+
+* Our study provides other variables that are worth further investigation such as: GDP per capita, population density, trade as a share of GDP, economic inequality, mineral rents as a share of GDP and linguistic fractionalization.
+
+* The inclusion of categorical variables (income group and politico-geographic regions) in the models shows that these variables are relevant.
+
+* The systematic and advanced empirical analysis may be useful for developing data-based recommendations for public policies and legal systems to create settings conductive to a stable democracy.
+
