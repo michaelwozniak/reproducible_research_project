@@ -64,7 +64,14 @@ install.packages(scan(file = "r_requirements.txt", what = character()))
 ```
 
 ### Project description
-article [link], poster[link]
+We created a project based on the article ["Institutional Underpinnings and Democracy Backsliding in the Perspective of COVID-19"](https://www.researchgate.net/publication/351692275_Institutional_Underpinnings_and_Democracy_Backsliding_in_the_Perspective_of_COVID-19_Authors) and the poster ["A study of Democracy Backsliding in the Perspective of COVID-19 using econometrics and machine learning approaches"](https://www.researchgate.net/publication/351692152_A_study_of_Democracy_Backsliding_in_the_Perspective_of_COVID-19_using_econometrics_and_machine_learning_approaches) by PhD Jacek Lewkowicz, Michał Woźniak and Michał Wrzesiński. Originally we investigated the drivers of the impact of the political decisions, as a response to the COVID-19 pandemic. We used a novel global dataset covering the period of the first wave of the pandemic (March-June 2020), which included the variables that we used as dependent variables. In these studies, we applied various econometric and machine learning tools.
+
+The main goals of the reproducible project are:
+- reproduction of the initial results
+- improvement of the study by performing robustness checks
+- structuring the project
+- clean and readable code for reproducibility
+- combination of the research methodology developed as a part of a scientific article and a poster from conference MLinPL
 
 ### Project structure description
 We divide our project into three main folders.
