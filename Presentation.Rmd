@@ -4,8 +4,8 @@ subtitle: "Study of reproducibility and robustness of results"
 author: "Michał Woźniak, Michał Wrzesiński"
 date: "25 05 2021"
 output:
-  beamer_presentation: default
   ioslides_presentation: default
+  beamer_presentation: default
 widescreen: yes
 ---
 
@@ -79,10 +79,14 @@ knitr::opts_chunk$set(echo = FALSE)
   - missing values (excluding variables with too much imputations)
 
 
-## OLS regression
-* specification with categorical variables
-* specification without categorical variables
-* robustness checks
+## OLS regression {.smaller}
+
+* general formula:
+$$ \text{democracy_backsliding}_i = \alpha + \beta_0 * \text{rule}_i + \beta_1 * \text{polyarchy}_i + \gamma*X_i + \epsilon $$
+* several specifications:
+  * with categorical variables
+  * without categorical variables
+  * robustness checks
 
 ## Initial results - OLS with categorical variables {.smaller}
 
@@ -178,7 +182,9 @@ xfun::file_string('results/robustness_check/ols_regression/robustness_missings/T
 
 
 
-## Random Forest
+## Random Forest {.smaller}
+* general formula:
+$$ \text{democracy_backsliding}_i = \alpha + \beta_0 * \text{rule}_i + \beta_1 * \text{polyarchy}_i + \gamma*X_i + \epsilon $$
 * SHAP summary plots
 * Permutation importance
 * Partial Dependence Plots (PDPs) (1 dimensional and 2 dimensional)
@@ -250,7 +256,9 @@ knitr::include_graphics(c("results/main_research/random_forest/pdp_2d_pandem_dis
 
 
 
-## CatBoost
+## CatBoost {.smaller}
+* general formula:
+$$ \text{democracy_backsliding}_i = \alpha + \beta_0 * \text{rule}_i + \beta_1 * \text{polyarchy}_i + \gamma*X_i + \epsilon $$
 * SHAP summary plots
 * Permutation importance
 * Partial Dependence Plots (PDPs) (1 dimensional and 2 dimensional)
@@ -328,13 +336,13 @@ knitr::include_graphics(c("results/main_research/catboost/pdp_2d_pandem_dis_vs_p
 
 * We recreated the original results and updated them with the new data and the new methodology.
 
-* We confirmed that the results are not distorted by several robustness checks.
+* We confirmed that the results are not distorted by performing several robustness checks.
 
 * Results compared to the original study are analogous.
 
 * Influence of law and state of democracy is exceptionally strong. The stronger the rule of law and the higher the level of democracy, the lower is the risk of democracy backsliding in the face of global pandemic.
 
-* Our study provides other variables that are worth further investigation such as: GDP per capita, population density, trade as a share of GDP, economic inequality, mineral rents as a share of GDP and linguistic fractionalization.
+* Our study provides other variables that are worth further investigation such as: inflation, population density, economic inequality, oil rents as a share of GDP and religious fractionalization.
 
 
 
